@@ -63,21 +63,22 @@ const WatchMoviePage: React.FC = () => {
 
   // List of embed API providers with custom names
   const embedSources = [
-    { name: "VIDZEE MUlti", url: `https://vidzee.wtf/movie/multi.php?id=${id}` },
-    { name: "VidZEE", url: `https://api.flixindia.site/movie/${id}` },
-    { name: "Pstream", url: `https://iframe.pstream.org/media/tmdb-movie-${id}` },
-    { name: "Vidzee Og", url: `https://vidzee.wtf/movie/${id}` },
-    { name: "Vidlinkpro", url: `https://vidlink.pro/movie/${id}` },
-    { name: "111movies", url: `https://111movies.com/movie/${id}` },
-    { name: "Videasy4k", url: `https://player.videasy.net/movie/${id}` },
-    { name: "Vidbinge4k", url: `https://vidsrc.dev/embed/movie/${id}` },
-    { name: "Rivestream", url: `https://rivestream.live/embed?type=movie&id=${id}` },
-    { name: "EmbedSu", url: `https://embed.su/embed/movie/${id}` },
-    { name: "SmashyStream", url: `https://player.smashy.stream/movie/${id}` },
-    { name: "Vidsrccc", url: `https://vidsrc.cc/v2/embed/movie/${id}` },
-    { name: "VidSrcMe", url: `https://vidsrc.me/embed/movie/${id}` },
-    { name: "MultiEmbed", url: `https://multiembed.mov/?video_id=${id}&tmdb=1` },
-    { name: "2Embed", url: `https://2embed.cc/embed/${id}` },
+    { name: "1", url: `https://Letsembed.cc/embed/movie/?id=${id}` },
+    { name: "2 MUlti", url: `https://vidzee.wtf/movie/multi.php?id=${id}` },
+    { name: "3", url: `https://api.flixindia.site/movie/${id}` },
+    { name: "4", url: `https://iframe.pstream.org/media/tmdb-movie-${id}` },
+    { name: "5", url: `https://vidzee.wtf/movie/${id}` },
+    { name: "6", url: `https://vidlink.pro/movie/${id}` },
+    { name: "7", url: `https://111movies.com/movie/${id}` },
+    { name: "8", url: `https://player.videasy.net/movie/${id}` },
+    { name: "9", url: `https://vidsrc.dev/embed/movie/${id}` },
+    { name: "10", url: `https://rivestream.live/embed?type=movie&id=${id}` },
+    { name: "11", url: `https://embed.su/embed/movie/${id}` },
+    { name: "12", url: `https://player.smashy.stream/movie/${id}` },
+    { name: "13", url: `https://vidsrc.cc/v2/embed/movie/${id}` },
+    { name: "14", url: `https://vidsrc.me/embed/movie/${id}` },
+    { name: "15", url: `https://multiembed.mov/?video_id=${id}&tmdb=1` },
+    { name: "16", url: `https://2embed.cc/embed/${id}` },
   ];
 
   const handleEmbedError = () => {
