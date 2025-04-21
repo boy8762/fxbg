@@ -7,7 +7,15 @@ body,
 :root {
   height: 100%;
 }
+body {
+  background-color: white;
+  color: black;
+}
 
+.dark body {
+  background-color: #000000; /* pure black */
+  color: #ffffff;
+}
 @layer utilities {
   .no-scrollbar::-webkit-scrollbar {
     display: none;
